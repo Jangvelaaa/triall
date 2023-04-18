@@ -1,0 +1,711 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+     
+    background-color: rgb(124, 35, 35);
+  }
+  header{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+  li{
+    list-style: none;
+  }
+  a{
+    color: rgb(209, 30, 30);
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .container{
+    max-width: 1224px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+  .navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-branding{
+    font-size: 2rem;
+  }
+  .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  .nav-link{
+    transition: 0.3s ease-out;
+  }
+  .nav-link:hover{
+    color: rgb(204, 204, 204);
+  }
+  .hamburger{
+    display: none;
+    cursor: pointer;
+   
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: rgba(221, 49, 49, 0.788);
+  }
+
+
+  .logo{
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+ 
+  .back{
+    width: 100%;
+    height: 400px;
+    position:  absolute;
+}
+
+
+
+.containerback{
+    display: block;
+    position: relative;
+}
+   h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-family: 'Merriweather', serif;
+    width: 600px;
+   }
+
+
+   p{
+    font-size: 15px;
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 15%;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+ 
+   .flag{
+    width: 80px;
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 40%;
+   }
+
+
+   .line{
+    width: 220px;
+    height: 27px;
+    color: #ff0000;
+    position: absolute;
+    margin-top: 10%;
+   }
+
+
+
+
+
+
+
+
+
+ 
+   
+   
+   .button-48 {
+     appearance: none;
+     background-color: #FFFFFF;
+     border-width: 0;
+     box-sizing: border-box;
+     color: #000000;
+     cursor: pointer;
+     display: inline-block;
+     font-family: Clarkson,Helvetica,sans-serif;
+     font-size: 10px;
+     font-weight: 500;
+     letter-spacing: 0;
+     line-height: 1em;
+     margin: 0;
+     opacity: 1;
+     outline: 0;
+     padding: 1.5em 2.2em;
+     position:  relative;
+     text-align: center;
+     text-decoration: none;
+     text-rendering: geometricprecision;
+     text-transform: uppercase;
+     transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     vertical-align: baseline;
+     white-space: nowrap;
+     margin-left: 43%;
+     margin-top: 20%;
+     width: 100px;
+     border-radius: 20px;
+   }
+   
+   .button-48:before {
+     animation: opacityFallbackOut .5s step-end forwards;
+     backface-visibility: hidden;
+     background-color: #c91515;
+     clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+     content: "";
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     transform: translateZ(0);
+     transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+     width: 100%;
+     border-radius: 20px;
+   }
+   
+   .button-48:hover:before {
+     animation: opacityFallbackIn 0s step-start forwards;
+     clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+   }
+   
+   .button-48:after {
+     background-color: #c91515;
+     border-radius: 20px;
+   }
+   
+   .button-48 span {
+     z-index: 1;
+     position: relative;
+   }
+
+
+   .img2{
+      position: absolute;
+      height: 300px;
+      margin-left: 3%;
+      margin-top: 22%;    
+      border: 2px solid red;
+   }
+
+
+   .team{
+    margin-left: 30%;
+    margin-top: 7%;
+    padding-top: 20px;
+   }
+
+   
+   .i2{
+    margin-top: 35px;
+   }
+   .i3{
+    margin-top: 75px;
+   }
+   .i4{
+    margin-top: 115px;
+   }
+   .i5{
+    margin-top: 155px;
+   }
+   .i6{
+    margin-top: 195px;
+   }
+   .i7{
+    margin-top: 235px;
+   }
+   .i8{
+    margin-top: 275px;
+   }
+   .i9{
+    margin-top: 315px;
+   }
+   .i10{
+    margin-top: 355px;
+   }
+   .i11{
+    margin-top: 400px;
+   }
+
+
+
+   h2{
+      position: absolute;
+      margin-left: 70%;
+      margin-top: 21%;
+      column-rule: grey;
+   }
+
+  .kit{
+    width: 50%;
+    margin-top: 35%;
+    margin-left: 3%;
+  }
+
+ 
+
+  .date{
+    margin-top: 70px;
+  }
+
+  .games{
+    margin-top: 42%;
+    margin-left: -100px;
+  }
+
+ .date2{
+  margin-left: 213px;
+ }
+
+ .team2{
+  margin-top: 150px;
+  margin-left: 167px;
+ }
+
+
+ .containerkits{
+  margin-left: 58%; 
+  margin-top: -25%;
+  color: #ffffff;
+ }
+
+ .buy{
+  margin-left: 72%;
+  margin-top: 5%;
+  border-radius: 20%;
+  border: 1px solid #fdfdfd;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  color: red;
+ }
+
+ .buy:hover{
+  background-color: rgb(156, 28, 28);
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.6s;
+}
+
+
+
+.macron{
+  width: 30px;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: -150px;
+}
+
+.gff{
+  width: 27px;
+  position: absolute;
+  margin-top: 110px;
+}
+
+ 
+.euroimg{
+  width: 45%;
+  margin-left: 42%;
+  height: 250px;
+  margin-top: 30%;
+}
+
+
+.europ{
+  margin-left: 90px;
+  width: 300px;
+  margin-top: -20%;
+  font-size: 30px;
+}
+
+
+.eurobtn{
+  margin-top: 53%;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  margin-left: -70%;
+}
+
+
+.backs{
+  margin-top: 10%;
+  width: 100%;
+  height: 400px;
+}
+
+.aca{
+  margin-left: 42%;
+  font-size: 25px;
+}
+
+
+.aca1{
+  width: 30%;
+  margin-top: 23%;
+  margin-left: 10%;
+}
+
+.acap1{
+  position: absolute;
+  margin-top: -14%;
+  font-size: 32px;
+  width: 400px;
+  margin-left: 42%;
+}
+
+ 
+.aca2{
+  width: 30%;
+  margin-top: 47%;
+  margin-left: 10%;
+  position: absolute;
+}
+
+.acap2{
+  position: absolute;
+  margin-top: 10%;
+  font-size: 32px;
+  width: 400px;
+  margin-left: 12%;
+}
+
+.aca3{
+  width: 30%;
+  margin-top: 77%;
+  margin-left: -30%;
+  position: absolute;
+}
+
+
+.acap3{
+  position: absolute;
+  margin-top: 40%;
+  font-size: 32px;
+  width: 400px;
+  margin-left: 42%;
+}
+
+
+
+footer{
+  width: 100%;
+  height: 100px;
+  color: #771b1b;
+  background-color: #ffffff;
+  margin-top: 70%;
+}
+
+
+.logofot{
+  position: absolute;
+  width: 5%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.macronlogo{
+  position: absolute;
+  width: 5%;
+  margin-top: 2%;
+  margin-left: 12%;
+}
+
+
+.navbarfooter{
+  margin-left: 30%;
+  margin-top: 2%;
+  position: absolute;
+}
+
+ 
+.containerlinks img{
+  width: 80px;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+
+
+.fblogo{
+  width: 3%;
+  margin-left: 70%;
+  margin-top: -5%;
+}
+
+
+.iglogo{
+  width: 4%;
+  margin-left: 3%;
+  margin-top: -2%;
+  position: absolute;
+}
+
+.ytlogo{
+  width: 7%;
+  margin-left: 10%;
+  margin-top: -2%;
+  position: absolute;
+}
+
+
+.twlogo{
+  width: 4%;
+  margin-left: 19%;
+  margin-top: -2%;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width:414px){
+
+    
+
+
+    .hamburger{
+      display: block;
+ 
+    }
+   .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+   .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+   .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+   .nav-menu{
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #771b1b;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+   .nav-item{
+      margin: 16px 0;
+    }
+   .nav-menu.active{
+      left: 0;
+    }
+
+ 
+    h1{
+        width: 370px;
+        font-size: 25px;
+        margin-left: 33px;
+        margin-top: 25%;
+      }
+
+      .containerback p{
+        margin-top: 35%;
+        margin-left: 80px;
+      }
+
+      
+      .button-48{
+      
+        display: none;
+      }
+
+      .flag{
+        margin-left: 40%;
+        margin-top: 85%;
+      }
+
+
+
+
+     .section2 img{
+          width: 300px;
+          height: 200px;
+          margin-top: 105%;
+          margin-left: 50px;
+     }
+
+     h2{
+        margin-left: 40%;
+        margin-top: 160%;
+        
+     }
+
+     .team{     
+        margin-left: -100px;
+        margin-top: 150%;
+    }
+
+    .games{
+       display: none;
+    }
+
+    .games2{
+      display: none;
+    }
+
+    
+
+    .kit{
+      margin-top: 150%;
+      width: 100%;
+      margin-left: 0px;
+    }
+
+
+    .containerkits{
+      margin-top: 10%;
+      margin-left: 30px;
+      
+    }
+
+    .buy{
+      margin-left: 155px;
+    }
+
+    .gff{
+      margin-left: 30px;
+    }
+
+    .euroimg{
+      width: 80%;
+      margin-left: 45px;
+    }
+
+    .eurobtn{
+      margin-top: 100%;
+      margin-left: -220px;
+    }
+
+    .europ{
+      margin-top: -72px;
+      color: black;
+      background-color: black;
+      font-size: 22px;
+      width: 80%;
+      margin-left: 50px;
+    }
+
+    .aca{
+      margin-top: 32%;
+      margin-left: 35%;
+    }
+
+     .aca1{
+      margin-top: 50%;
+     }
+
+
+     .aca2{
+      margin-top: 75%;
+      margin-left: 100px;
+     }
+
+     .aca3{
+      margin-top: 105%;
+     }
+    .acap2{
+      font-size: 20px;
+      width: 50%;
+    }
+  
+    .acap3{
+      font-size: 20px;
+      width: 60%;
+    }
+
+  .acap1{
+    font-size: 20px;
+    width: 50%;
+    margin-top: -75px;
+  }
+   
+  footer{
+    width: 100%;
+    height: 100px;
+    color: #771b1b;
+    background-color: #ffffff;
+    margin-top: 70%;
+    padding-bottom: 55px;
+  }
+ 
+
+  .logofot{
+    width: 40px;
+  }
+
+  .macronlogo{
+    width: 40px;
+    margin-top: 23%;
+    margin-left: 10px;
+  }
+ 
+
+  .navbarfooter{
+    margin-left: 100px;
+  }
+
+   .fblogo{
+    width: 25px;
+    margin-top: 20px;
+    margin-left: 220px;
+   }
+
+   .iglogo{
+    width: 25px;
+    margin-top: 20px;
+   }
+
+   .ytlogo{
+    width: 55px;
+    margin-top: 20px;
+   }
+
+   .twlogo{
+    display: none;
+   }
+
+   
+   .containerlinks{
+    margin-left: 70px;
+   }
+
+
+
+  }
